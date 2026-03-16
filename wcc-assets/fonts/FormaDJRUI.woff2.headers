@@ -1,0 +1,15 @@
+{
+  "url": "https://support.hp.com/wcc-assets/fonts/FormaDJRUI.woff2",
+  "status_code": 403,
+  "headers": {
+    "Server": "AkamaiGHost",
+    "Mime-Version": "1.0",
+    "Content-Type": "text/html",
+    "Content-Length": "417",
+    "Expires": "Mon, 16 Mar 2026 13:37:45 GMT",
+    "Date": "Mon, 16 Mar 2026 13:37:45 GMT",
+    "Connection": "close",
+    "X-Frame-Options": "ALLOW-FROM https://hpcdax.crm.dynamics.com, *.hp.com",
+    "Akamai-GRN": "0.ce06d217.1773668265.5fd89927"
+  }
+}
