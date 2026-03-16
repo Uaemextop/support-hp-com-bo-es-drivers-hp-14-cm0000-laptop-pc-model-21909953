@@ -1,0 +1,15 @@
+{
+  "url": "https://support.hp.com/wcc-assets/en-nz.js",
+  "status_code": 403,
+  "headers": {
+    "Server": "AkamaiGHost",
+    "Mime-Version": "1.0",
+    "Content-Type": "text/html",
+    "Content-Length": "403",
+    "Expires": "Mon, 16 Mar 2026 13:37:24 GMT",
+    "Date": "Mon, 16 Mar 2026 13:37:24 GMT",
+    "Connection": "close",
+    "X-Frame-Options": "ALLOW-FROM https://hpcdax.crm.dynamics.com, *.hp.com",
+    "Akamai-GRN": "0.ce06d217.1773668244.5fd5c979"
+  }
+}
