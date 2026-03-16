@@ -1,0 +1,25 @@
+{
+  "url": "https://support.hp.com/wcc-assets/content/dam/hp-wcc/fe-assets/images/favicon.ico",
+  "status_code": 200,
+  "headers": {
+    "Content-Type": "image/x-icon",
+    "Content-Length": "716",
+    "Server": "nginx",
+    "X-Dispatcher": "dispatcher2eastus2-17271025",
+    "X-Vhost": "web-customer-care",
+    "X-Content-Type-Options": "nosniff, nosniff",
+    "Last-Modified": "Mon, 24 Nov 2025 07:41:34 GMT",
+    "ETag": "\"2b8-644524ad8e780-gzip\"",
+    "Accept-Ranges": "bytes",
+    "Content-Encoding": "gzip",
+    "X-Frame-Options": "SAMEORIGIN, DENY, ALLOW-FROM https://hpcdax.crm.dynamics.com, *.hp.com",
+    "X-XSS-Protection": "1; mode=block",
+    "Strict-Transport-Security": "max-age=15768000; includeSubDomains; preload",
+    "Referrer-Policy": "no-referrer-when-downgrade",
+    "Vary": "Accept-Encoding",
+    "Expires": "Mon, 16 Mar 2026 13:34:31 GMT",
+    "Date": "Mon, 16 Mar 2026 13:34:31 GMT",
+    "Connection": "keep-alive",
+    "Akamai-GRN": "0.ce06d217.1773668071.5fbe3107"
+  }
+}

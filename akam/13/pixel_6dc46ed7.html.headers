@@ -1,0 +1,15 @@
+{
+  "url": "https://support.hp.com/akam/13/pixel_6dc46ed7?a=dD01ODAwZTU3ZTAwMDBjNmUwNjE5MmQxODNkNWRhNzA2NGIzZWVmNjljJmpzPW9mZg==",
+  "status_code": 403,
+  "headers": {
+    "Server": "AkamaiGHost",
+    "Mime-Version": "1.0",
+    "Content-Type": "text/html",
+    "Content-Length": "407",
+    "Expires": "Mon, 16 Mar 2026 13:34:31 GMT",
+    "Date": "Mon, 16 Mar 2026 13:34:31 GMT",
+    "Connection": "keep-alive",
+    "X-Frame-Options": "ALLOW-FROM https://hpcdax.crm.dynamics.com, *.hp.com",
+    "Akamai-GRN": "0.ce06d217.1773668071.5fac51bc"
+  }
+}

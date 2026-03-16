@@ -1,0 +1,23 @@
+{
+  "url": "https://support.hp.com/wcc-assets/runtime.186c4671202390fb.js",
+  "status_code": 200,
+  "headers": {
+    "Content-Type": "application/javascript",
+    "Server": "nginx",
+    "Last-Modified": "Fri, 05 Dec 2025 16:11:39 GMT",
+    "Vary": "Accept-Encoding",
+    "ETag": "W/\"6933043b-2125\"",
+    "X-Frame-Options": "DENY, ALLOW-FROM https://hpcdax.crm.dynamics.com, *.hp.com",
+    "X-Content-Type-Options": "nosniff",
+    "X-XSS-Protection": "1; mode=block",
+    "Strict-Transport-Security": "max-age=15768000; includeSubDomains; preload",
+    "Referrer-Policy": "no-referrer-when-downgrade",
+    "Content-Encoding": "gzip",
+    "X-layer-2": "ig",
+    "x-seo": "false",
+    "Content-Length": "3312",
+    "Date": "Mon, 16 Mar 2026 13:34:31 GMT",
+    "Connection": "keep-alive",
+    "Akamai-GRN": "0.ce06d217.1773668071.5fbe39af"
+  }
+}

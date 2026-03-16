@@ -1,0 +1,25 @@
+{
+  "url": "https://support.hp.com/bo-es/drivers/hp-14-cm0000-laptop-pc/model/backup.7z",
+  "status_code": 200,
+  "headers": {
+    "Content-Type": "text/html",
+    "Server": "nginx",
+    "Last-Modified": "Fri, 05 Dec 2025 16:11:38 GMT",
+    "Vary": "Accept-Encoding",
+    "ETag": "W/\"6933043a-1b46\"",
+    "X-Frame-Options": "DENY, ALLOW-FROM https://hpcdax.crm.dynamics.com, *.hp.com",
+    "X-Content-Type-Options": "nosniff",
+    "X-XSS-Protection": "1; mode=block",
+    "Strict-Transport-Security": "max-age=15768000; includeSubDomains; preload",
+    "Referrer-Policy": "no-referrer-when-downgrade",
+    "X-layer-2": "ig",
+    "x-seo": "false",
+    "X-Akamai-Transformed": "0 - 0 -",
+    "Content-Encoding": "gzip",
+    "Date": "Mon, 16 Mar 2026 13:32:26 GMT",
+    "Content-Length": "2469",
+    "Connection": "keep-alive",
+    "Akamai-GRN": "0.ce06d217.1773667946.5fac4771",
+    "Set-Cookie": "ak_bmsc=7437AE573ED41936FED9D7E3F8EEF31E~000000000000000000000000000000~YAAQzgbSFxzbXPKcAQAALxHZ9h90fctcE/TyM3wwK6e48pHsokD4jsB9cVUxs674X9xiS4DkQpSA6gyP/QYUgXUgc92W1DWiAcrTOqSSTMroSkyKYx8jMN9rtR7akw3SPp9hW3w0Ewjuu/N/faPogDXtN8Bv2x56V6qwEbUGijvHgDM9fBIt9ZJgojVlYIi/YBYFNtkYToxg74OeSFp6bcxoug30rIQNm/i+Le2DJTg4bL+TFookGq/JD3DthjwyIt/g8xN64lYz5ng0b6lrCQTU9UVzmJAXqLXJv34xBTyj7m/V21+bfNsMP7fZjGTj2Ygfzd/KbG4pqK4TQx4ZNGVfBUWZzfoBsyD1FFNs38V2dDzufaVrR/qr6A==; Domain=.hp.com; Path=/; Expires=Mon, 16 Mar 2026 15:32:26 GMT; Max-Age=7200; HttpOnly, bm_mi=3BF4050A6D1D2A71B652B6F2584434F5~YAAQzgbSFx3bXPKcAQAALxHZ9h9sDeSusrh9sgdiGM4e8t+ezyM0wqYk0T1zKjaOfqHyfgCnJII4GNw8wY0K6uUawp2zRevOIvbHHP1rBguyZpnvidrfubK9ykUn5HdkkioGVcYu373QvGsRKaKJjuAN7ZpDwihXgOQeveHHk39/n1ZewHXCGHLFs76P2aJyLqu8Az86jKFMAOyShmiPfad6JGP1B1jdUkN1tHbgE5o60Lo+fltFRuizO5DFhpiNGpkH5+/HpJDU7/sDMv7OjDREllyuQxfBWNaKf4R1Z7DTUiQvV1QI+67GNMxhjGUA02W5tEYO8ezoIXtypow2H84gMHdA6IZaLGA0embD4G8ZnR72zXzSYXyXPQyztg==~1; Domain=.hp.com; Path=/; Expires=Mon, 16 Mar 2026 13:32:26 GMT; Max-Age=0; Secure"
+  }
+}

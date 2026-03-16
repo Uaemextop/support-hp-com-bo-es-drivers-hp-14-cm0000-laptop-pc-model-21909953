@@ -1,0 +1,1586 @@
+/* 3rd November , 2025*/
+#udpDocumentFragment table .row {
+    display: table-row;
+}
+
+#udpDocumentFragment {
+    overflow-x: auto;
+    color: #000000;
+    font-family: forma-djr-ui, forma-djr-micro, FormaDJRUI, 'Forma DJR UI', FormaDJRDisplay, 'Forma DJR Display',  Arial, sans-serif;
+    font-size: 16px;
+}
+
+@font-face {
+        font-family: "ui-monospace, monospace";
+}
+
+#udpDocumentFragment div.mtonlydisclaimer {
+    font-style: italic;
+    font-size: 0.82rem;
+    line-height: 1.36rem;
+    margin-top: 1.076rem;
+}
+
+#udpDocumentFragment h1.topictitle1,
+#udpDocumentFragment h2.topictitle2,
+#udpDocumentFragment h3.topictitle3,
+#udpDocumentFragment h4.topictitle4,
+#udpDocumentFragment .sectiontitle,
+#udpDocumentFragment h5.topictitle5,
+#udpDocumentFragment h6.topictitle6 {
+	font-family: forma-djr-ui, forma-djr-micro, Forma-DJR, 'FormaDJRUI', 'Forma DJR UI', 'FormaDJRDisplay', 'Forma DJR Display';
+    color: #000000; 
+    opacity: 1;
+    box-sizing: content-box;
+    padding: 0px;
+	margin-block-start: 0px;
+	margin-block-end: 0px;
+}
+
+#udpDocumentFragment h1.topictitle1 {
+    font-size: 2.5rem; 
+	line-height: 3rem; 
+	font-weight: 400;
+	margin: 0 0 0 0;
+}
+
+#udpDocumentFragment h3.topictitle3.title, 
+#udpDocumentFragment h3.topictitle3.title.expandableHeading {
+    font-weight: 500;
+}
+/* PQC changed font-weight to 500 12/4 */
+#udpDocumentFragment h2.topictitle2 { 
+    font-size: 1.25rem; 
+	line-height: 1.25rem; 
+	font-weight: 500;
+    margin-top: 0.625rem;
+	margin-left: 0em !important;
+	
+}
+
+/* indent for h2 */
+#udpDocumentFragment div.nested1 {
+	margin-left:0rem;
+	margin-top: 1.2rem;
+}
+html[dir="rtl"] #udpDocumentFragment div.nested1 {
+	margin-right:0rem;
+	margin-top: 1.2rem;
+}
+  
+#udpDocumentFragment h3.topictitle3 { 
+    font-size: 1.0rem; 
+	line-height: 1.25rem;
+	font-weight: 500;
+	margin-top: 0.625rem;
+    /*This overrides an important rule from mashup:ra*/
+    margin-left: 0em !important;
+}
+/* indent for nested divs */
+#udpDocumentFragment div.nested2,
+#udpDocumentFragment div.nested3,
+#udpDocumentFragment div.nested4,
+#udpDocumentFragment div.nested5,
+#udpDocumentFragment div.nested6 {
+	margin-left:2.75rem;
+	border-top: 1px solid #737373;
+	margin-top: 1.2rem;
+}
+
+html[dir="rtl"] #udpDocumentFragment div.nested2,
+html[dir="rtl"] #udpDocumentFragment div.nested3,
+html[dir="rtl"] #udpDocumentFragment div.nested4,
+html[dir="rtl"] #udpDocumentFragment div.nested5,
+html[dir="rtl"] #udpDocumentFragment div.nested6 {
+	margin-right:2.75rem;
+	border-top: 1px solid #737373;
+}
+
+/* top border only for h2*/
+div.nested1 {
+    border-top: 1px solid #737373;
+}
+
+#udpDocumentFragment h4.topictitle4,
+#udpDocumentFragment .sectiontitle
+{ 
+    font-size: 1.0rem; 
+	line-height: 1.25rem;
+	font-weight: 500;
+	margin-top: 0.625rem;
+    /*This overrides an important rule from mashup:ra*/
+    margin-left: 0em !important;
+}
+/* indent for h4 
+div.nested3 {
+	margin-left:5.5rem;
+}*/
+  
+#udpDocumentFragment h5.topictitle5 { 
+	font-size: 1.0rem; 
+	line-height: 1.25rem;
+	font-weight: 500;
+	margin-top: 0.625rem;
+    /*This overrides an important rule from mashup:ra*/
+    margin-left: 0em !important;
+}
+  
+#udpDocumentFragment h6.topictitle6 { 
+	font-size: 1.0rem; 
+	line-height: 1.25rem;
+	font-weight: 500;
+	margin-top: 0.625rem;
+    /*This overrides an important rule from mashup:ra*/
+    margin-left: 0em !important; 
+}
+
+/* 
+ * All elements preceded by headings must not include a top margin,
+ * a bottom-margin in headings is included equivalent to 8px 
+ */
+#udpDocumentFragment h1.topictitle1 + *,
+#udpDocumentFragment h2.topictitle2 + *,
+#udpDocumentFragment h3.topictitle3 + *,
+#udpDocumentFragment h4.topictitle4 + *,
+#udpDocumentFragment h5.topictitle5 + *,
+#udpDocumentFragment h6.topictitle6 + *,
+#udpDocumentFragment .sectiontitle + *,
+#udpDocumentFragment .sectiontitle + div.fig > p {
+    margin-top: 0 !important;
+}
+
+#udpDocumentFragment p.p, 
+#udpDocumentFragment p.cmd, 
+#udpDocumentFragment p.shortdesc,
+#udpDocumentFragment p.listintro {
+    font-family: forma-djr-ui, forma-djr-micro, 'Forma-DJR', 'FormaDJRUI', 'Forma DJR UI', 'FormaDJRDisplay', 'Forma DJR Display';
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color:   rgb(0, 0, 0);
+    margin: 0.5em 0;
+    padding: 0;
+}
+
+/* p.shortdesc is always preceded by a heading, margin is added in headings*/
+#udpDocumentFragment p.shortdesc {
+    margin-top: 0.5rem;
+}
+
+#udpDocumentFragment p.aligncenter {
+    text-align: center;
+}
+
+#udpDocumentFragment div.note {
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+    padding: 0.588em 1.059rem;
+	/*PQC added 11/30 */
+    margin-top: 1.0rem;
+    margin-bottom: 1.0rem;
+	/*end*/
+    opacity: 1;
+	border: 1px solid #000000;
+}
+
+#udpDocumentFragment li div.note {
+    margin: 0.882em 0;
+}
+
+#udpDocumentFragment div.caution span.cautiontitle, 
+#udpDocumentFragment div.important span.importanttitle {
+    background: transparent url('https://support.hp.com/wps/hp-support-product-portlets/resources/images/icon-alert_udp.svg') 0% 0% no-repeat padding-box;
+    /*padding-left: 1.765rem; */   
+}
+
+#udpDocumentFragment div.warning span.warningtitle, 
+#udpDocumentFragment div.danger span.dangertitle {
+    background: transparent url('https://support.hp.com/wps/hp-support-product-portlets/resources/images/icon-bullhorn_udp.svg') 0% 0% no-repeat padding-box;
+    /*padding-left: 1.765rem; */   
+}
+
+/*For RTL, admonishment icons are changed to the right*/
+html[dir="rtl"] #udpDocumentFragment div.caution span.cautiontitle,
+html[dir="rtl"] #udpDocumentFragment div.important span.importanttitle,
+html[dir="rtl"] #udpDocumentFragment div.warning span.warningtitle,
+html[dir="rtl"] #udpDocumentFragment div.danger span.dangertitle {
+    padding-left: 0;
+    /*padding-right: 1.765rem;*/
+    background-position-x: right;
+}
+
+#udpDocumentFragment span.notetitle, 
+#udpDocumentFragment span.tiptitle, 
+#udpDocumentFragment span.noticetitle,
+#udpDocumentFragment span.cautiontitle, 
+#udpDocumentFragment span.warningtitle, 
+#udpDocumentFragment span.dangertitle, 
+#udpDocumentFragment span.importanttitle {
+    /*font-family: 'HPSimplified', 'HP Simplified';*/
+	font-family: forma-djr-ui, forma-djr-micro, 'Forma-DJR', 'FormaDJRUI', 'Forma DJR UI', 'FormaDJRDisplay', 'Forma DJR Display';
+}
+
+#udpDocumentFragment span.notetitle, 
+#udpDocumentFragment span.tiptitle, 
+#udpDocumentFragment span.noticetitle {
+    color: #000000;
+    text-transform: uppercase;
+    line-height: 1.294rem;
+    /*Override general styles*/
+    padding: 0px;
+    display: inline-block;
+    vertical-align: baseline;
+    min-height: 1.294rem;
+	font-weight: 600;
+}
+
+#udpDocumentFragment span.cautiontitle, 
+#udpDocumentFragment span.warningtitle, 
+#udpDocumentFragment span.dangertitle, 
+#udpDocumentFragment span.importanttitle {
+    line-height: 1.294rem;
+    color: #B62237;
+    text-transform: uppercase;
+    display: inline-block;
+    min-height: 1.294rem;
+}
+
+#udpDocumentFragment div.note p:first-of-type {
+    display:inline;
+}
+
+#udpDocumentFragment div.note p.p {
+    margin-top: 0px;
+    margin-bottom: 0.3rem;
+}
+
+/*  Figures  */
+#udpDocumentFragment p.figcap,
+#udpDocumentFragment p.listtitle
+{
+    margin-bottom: 0rem;
+    margin-top: 1rem;
+}
+
+#udpDocumentFragment caption {
+    text-align: left;
+}
+
+html[dir="rtl"] #udpDocumentFragment caption {
+    text-align: right;
+}
+
+#udpDocumentFragment .figcap,
+#udpDocumentFragment span.tablecap, 
+#udpDocumentFragment p.listtitle
+{
+	font-family: forma-djr-ui, forma-djr-micro, 'Forma-DJR', 'FormaDJRUI', 'Forma DJR UI', 'FormaDJRDisplay', 'Forma DJR Display';
+    font-weight: 600;
+    font-size: 1rem; 
+    line-height: 1.25rem; 
+    color: #000000; 
+    text-transform: uppercase; 
+    opacity: 1;
+}
+
+/* PQC added 11/30 */
+#udpDocumentFragment caption{
+	caption-side:top;
+}
+#udpDocumentFragment span.figcap {
+	display: block;
+}
+/* end */
+
+/*   Lists  */
+#udpDocumentFragment ul.ul {
+    list-style-type: disc;
+}
+
+#udpDocumentFragment ul.ul ul {
+    list-style-type: circle;
+}
+/* PQC change to 'margin-left: 1.0rem;' 11/30 */
+#udpDocumentFragment ol.ol, 
+#udpDocumentFragment ol, 
+#udpDocumentFragment ul.ul, 
+#udpDocumentFragment ul, 
+#udpDocumentFragment ul.sl,
+#udpDocumentFragment dl.dl { 
+    color: #000000; 
+    margin-left: 1.0rem;
+    margin-top: 1.0rem; 
+    margin-bottom: 1.0rem; 
+	/*padding-left: 1.0rem;*/
+    /*overrides the font-family from .body*/
+	font-family: forma-djr-ui, forma-djr-micro, 'Forma-DJR', 'FormaDJRUI', 'Forma DJR UI', 'FormaDJRDisplay', 'Forma DJR Display';
+}
+html[dir="rtl"] #udpDocumentFragment ol.ol, 
+html[dir="rtl"] #udpDocumentFragment ol, 
+html[dir="rtl"] #udpDocumentFragment ul.ul, 
+html[dir="rtl"] #udpDocumentFragment ul, 
+html[dir="rtl"] #udpDocumentFragment ul.sl,
+html[dir="rtl"] #udpDocumentFragment dl.dl {
+	margin-right: 1.0rem;
+	margin-left: 0rem;
+}
+
+#udpDocumentFragment ol.ol, 
+#udpDocumentFragment ol, 
+#udpDocumentFragment ul, 
+#udpDocumentFragment ul.ul, 
+#udpDocumentFragment ul.sl{
+	padding-left: 0rem;
+}
+
+html[dir="rtl"] #udpDocumentFragment ol.ol, 
+html[dir="rtl"] #udpDocumentFragment ol, 
+html[dir="rtl"] #udpDocumentFragment ul, 
+html[dir="rtl"] #udpDocumentFragment ul.ul, 
+html[dir="rtl"] #udpDocumentFragment ul.sl{
+	padding-right: 0rem;
+}
+
+#udpDocumentFragment ol.ol li.li, 
+#udpDocumentFragment ul.ul li.li { 
+    margin-bottom: 0.5em !important;
+}
+
+/* html[dir="rtl"] #udpDocumentFragment ol.ol, 
+html[dir="rtl"] #udpDocumentFragment ul.ul { 
+    padding-right: 1.5rem;
+    padding-left: 0;
+} */
+
+/* PQC changed to margin-top: 1.0rem; 11/30 */
+#udpDocumentFragment li ol.ol,
+#udpDocumentFragment li ul.ul {
+    margin-top: 1.0rem;
+}
+
+#udpDocumentFragment li div{ 
+    margin-top: 0rem; 
+    margin-bottom: 0rem;
+}
+
+#udpDocumentFragment li p.p, 
+#udpDocumentFragment li p.cmd { 
+    font-size: 1rem; 
+    line-height: 1.5rem;
+    margin-top: 0rem; 
+    margin-bottom: 0.3rem;
+}
+
+#udpDocumentFragment info tablenoborder {
+    margin-bottom: 0.5rem;
+}
+
+#udpDocumentFragment dt.dlterm{
+	font-weight: 600;
+}
+
+/*  Figures  */
+#udpDocumentFragment div.fig { 
+    margin-top: 1.176rem; 
+    margin-bottom: 1.176rem;
+}
+
+#udpDocumentFragment div.image img.image { 
+    max-width: 100%; 
+    margin: 0.588em 0;
+}
+
+#udpDocumentFragment li.step img.image { 
+    max-height: 25rem; 
+}
+
+#udpDocumentFragment p img.image {
+    display: inline;
+}
+
+#udpDocumentFragment div.fig table.simpletable { 
+    font-size: 0.824rem; 
+    border: none; 
+    margin-left: 1.429rem;
+}
+
+#udpDocumentFragment div.fig table.simpletable thead tr th, 
+#udpDocumentFragment div.fig table.simpletable tbody tr td{ 
+    border: none; 
+    padding: 0.357rem;
+}
+
+#udpDocumentFragment div.fig table.simpletable thead tr th p.p { 
+    font-weight: 400 !important;
+}
+
+/* video */
+#udpDocumentFragment div.video {
+    background-color: #F3F3F3;
+    padding: 0.882rem;
+}
+
+#udpDocumentFragment div.videoHeading {
+	font-family: forma-djr-ui, forma-djr-micro, 'Forma-DJR', 'FormaDJRUI', 'Forma DJR UI', 'FormaDJRDisplay', 'Forma DJR Display';
+    font-weight: 400;
+    font-size: 1.0rem; /*Based on 15px from mashup*/
+    line-height: 1.25rem;
+}
+
+#udpDocumentFragment div.videoName {
+	font-family: forma-djr-ui, forma-djr-micro, 'Forma-DJR', 'FormaDJRUI', 'Forma DJR UI', 'FormaDJRDisplay', 'Forma DJR Display';
+    font-weight: 400;
+    font-size: 1.25rem; /*Based on 15px from mashup*/
+    line-height: 1.5rem;
+}
+
+#udpDocumentFragment div.videoDesc {
+	font-family: forma-djr-ui, forma-djr-micro, 'Forma-DJR', 'FormaDJRUI', 'Forma DJR UI', 'FormaDJRDisplay', 'Forma DJR Display';
+    font-weight: 400;
+    font-size: 1.125rem; /*Based on 15px from mashup*/
+    line-height: 1.125rem;
+}
+
+/*  tables  */
+
+#udpDocumentFragment div.tablenoborder {
+    margin-top: 0.5rem;
+    overflow-x: auto;
+    padding-bottom: 2px;
+    overflow-y: hidden;
+}
+
+#udpDocumentFragment table caption {
+    margin-bottom: 0.294rem;
+}
+
+#udpDocumentFragment table, 
+#udpDocumentFragment table thead tr th,
+#udpDocumentFragment table tbody tr td { 
+    border-color: #CCCCCC;
+}
+
+#udpDocumentFragment table thead tr th {    
+    padding: 0.883rem;
+    background: #F3F3F3 0% 0% no-repeat padding-box; 
+}
+
+#udpDocumentFragment table thead tr th * { 
+	font-family: forma-djr-ui, forma-djr-micro, 'Forma-DJR', 'FormaDJRUI', 'Forma DJR UI', 'FormaDJRDisplay', 'Forma DJR Display';
+    margin-top: 0rem; 
+    margin-bottom: 0rem; 
+    font-weight: 400 !important;
+}
+
+#udpDocumentFragment table thead tr th p.p { 
+	font-family: forma-djr-ui, forma-djr-micro, 'Forma-DJR', 'FormaDJRUI', 'Forma DJR UI', 'FormaDJRDisplay', 'Forma DJR Display';
+}
+
+#udpDocumentFragment table.simpletable thead tr th * { 
+    margin-top: 0rem; 
+    margin-bottom: 0rem; 
+    font-weight: 300 !important;
+}
+
+#udpDocumentFragment table thead tr th * {
+    margin: 0em !important;
+}
+
+#udpDocumentFragment table tbody tr td * {
+    margin: 0em 0em 0.588em 0em !important;
+}
+
+#udpDocumentFragment table tbody tr td a {
+    word-wrap: break-word;
+}
+
+#udpDocumentFragment table tbody tr td {
+    padding: 0.883rem; 
+}
+
+#udpDocumentFragment div.fn { 
+    margin-top: 0.294rem;
+} 
+
+#udpDocumentFragment div.fn p{ 
+    display: inline; 
+    font-size: 0.824rem;
+}
+/* pre */
+pre.pre{
+	font-family: forma-djr-ui, forma-djr-micro, 'Forma-DJR', 'FormaDJRUI', 'Forma DJR UI', 'FormaDJRDisplay', 'Forma DJR Display';
+    font-weight: 400;	
+}
+pre.codeblock {
+	font-family: ui-monospace, monospace !important; 
+}
+
+/*  inline elements  */
+#udpDocumentFragment kbd.userinput, 
+#udpDocumentFragment span.controlpanel, 
+#udpDocumentFragment samp.controlpanelmessage, 
+#udpDocumentFragment span.keyboard, 
+#udpDocumentFragment code.codeph, 
+#udpDocumentFragment var.varname,
+#udpDocumentFragment samp.uimessage, 
+#udpDocumentFragment span.wintitle, 
+#udpDocumentFragment menucascade abbr, 
+#udpDocumentFragment samp.msgph { 
+	font-family: ui-monospace, monospace !important;
+    font-weight: 400; 
+    opacity: 1;
+}
+/* PQC added 11/30 */
+#udpDocumentFragment kbd.userinput {
+	color:#000000;
+	background-color:lightgray;
+}
+
+
+#udpDocumentFragment span.controlpanel,  
+#udpDocumentFragment span.uicontrol, 
+#udpDocumentFragment span.msgnum { 
+	font-family: forma-djr-ui, forma-djr-micro, 'Forma-DJR', 'FormaDJRUI', 'Forma DJR UI', 'FormaDJRDisplay', 'Forma DJR Display';
+    font-weight: 600; 
+    opacity: 1;
+}
+
+#udpDocumentFragment span.msgnum,
+#udpDocumentFragment span.plnumber,
+#udpDocumentFragment span.pldescription,
+#udpDocumentFragment span.keyword
+{
+	font-family:inherit;
+}
+
+#udpDocumentFragment strong {
+	font-family: forma-djr-ui, forma-djr-micro, 'Forma-DJR', 'FormaDJRUI', 'Forma DJR UI', 'FormaDJRDisplay', 'Forma DJR Display';
+    font-weight: 600;
+    opacity: 1;
+}
+
+#udpDocumentFragment em.i, 
+#udpDocumentFragment cite.cite,
+#udpDocumentFragment span.q { 
+    font-style: italic;
+}
+
+#udpDocumentFragment sup, 
+#udpDocumentFragment sub{ 
+	font-family: forma-djr-ui, forma-djr-micro, 'Forma-DJR', 'FormaDJRUI', 'Forma DJR UI', 'FormaDJRDisplay', 'Forma DJR Display';
+    font-size: smaller;
+}
+
+#udpDocumentFragment sup{
+	vertical-align: sup;
+}
+
+#udpDocumentFragment sub{
+	vertical-align: sub;
+}
+
+#udpDocumentFragment a { 
+    text-decoration: none;
+}
+
+#udpDocumentFragment a.xref:disabled {
+    text-decoration: underline;
+	color: #DBDBDB;
+}
+
+#udpDocumentFragment a.xref:hover {
+    text-decoration: underline;
+	color: #014667;
+}
+
+#udpDocumentFragment a.xref:visited {
+    text-decoration: underline;
+	color: #002B40;
+}
+
+#udpDocumentFragment a.xref:focus {
+    text-decoration: underline;
+	color: #0278AB;
+	border: 2px solid, #0278AB;
+}
+
+#udpDocumentFragment a.xref { 
+    color: #0278AB; 
+	font-family: forma-djr-ui, forma-djr-micro, 'Forma-DJR', 'FormaDJRUI', 'Forma DJR UI', 'FormaDJRDisplay', 'Forma DJR Display';
+    font-weight: 400; 
+    font-size: 1rem; 
+    line-height: 1.294rem;
+	text-decoration: underline;
+}
+
+
+/* overrides */
+/* PQC added margin-left: 0.5rem; to n+10 child prevent clipping of two-digit step numbers */
+#udpDocumentFragment .step {
+    position: static;
+    display: list-item !important;
+	list-style-type: decimal;
+    height: auto; 
+    line-height: 1.294rem;
+    padding: 0; 
+    background-color: transparent; 
+    color: #000000;
+	/*margin-left: 0.5rem;*/
+}
+#udpDocumentFragment .substep{
+	display: list-item !important;
+	list-style-type: lower-alpha;
+}
+
+
+#udpDocumentFragment .step:nth-child(n+10){
+	margin-left: 0.5rem;
+}
+
+html[dir="rtl"] #udpDocumentFragment .step:nth-child(n+10){
+	margin-left: 0rem;
+	margin-right: 0.5rem;
+}
+
+#udpDocumentFragment .steps-unordered .step {
+	margin-left: 0rem;
+
+}
+
+html[dir="rtl"] #udpDocumentFragment .steps-unordered .step {
+	margin-right: 0rem;
+}
+
+#udpDocumentFragment .step:hover {
+    color: #000000;
+}
+
+#udpDocumentFragment .step::after {
+    content: none;
+}
+
+#udpDocumentFragment li {
+    list-style-type: inherit;
+}
+/*added on 4th March Jan 2025*/
+#udpDocumentFragment div.taskbody div.ol ol,#udpDocumentFragment div.section div.ol ol,#udpDocumentFragment div.ol ol {
+	list-style-type: decimal
+}
+#udpDocumentFragment div.taskbody div.ol ol div.ol ol,#udpDocumentFragment div.section div.ol ol div.ol ol,#udpDocumentFragment div.ol ol div.ol ol {
+	list-style-type: lower-alpha
+}
+/*--*/
+/*Updated on 3rd november*/
+#udpDocumentFragment ul.steps-unordered li.step {
+	list-style-type:disc!important;
+}
+/*--*/
+/* PQC Dec 8 */
+#udpDocumentFragment table {
+    margin-bottom: 1.2rem;
+}
+
+#udpDocumentFragment .tablenoborder table {
+    margin-bottom: 0rem;
+}
+/* end */
+
+#udpDocumentFragment em {
+    font-family: inherit;
+}
+
+#udpDocumentFragment sup {
+    font-weight: 300;
+    line-height: 2rem;
+    position: static;
+    vertical-align: super;
+}
+
+#udpDocumentFragment sub {
+    line-height: 2rem;
+    position: static;
+    vertical-align: sub;
+}
+
+#udpDocumentFragment .row::before,
+#udpDocumentFragment .row::after {
+    content: inherit;
+}
+
+#udpDocumentFragment .table {
+    width: inherit;
+}
+
+/* expandable divs */
+div.accordionIconContainer {
+    display: none;
+}
+
+#udpDocumentFragment div.expandable {
+    padding: 0;
+    /*border-bottom: 1px solid #e8e8e8;*/
+    margin-left: 0;
+    margin-bottom: 1.0rem;
+}
+
+html[dir="rtl"] #udpDocumentFragment div.expandable {
+    padding: 0;
+    /*border-bottom: 1px solid #e8e8e8;*/
+    margin-right: 0;
+}
+
+#udpDocumentFragment div.expandable div.expandable {
+    margin-bottom: 15px;
+}
+/*added PQC*/
+#udpDocumentFragment div.collapse{
+	margin-left: 2.75rem;
+}
+html[dir="rtl"] #udpDocumentFragment div.collapse{
+	margin-right: 2.75rem;
+}
+
+#udpDocumentFragment h2.expandableHeading,
+#udpDocumentFragment h3.expandableHeading,
+#udpDocumentFragment h4.expandableHeading,
+#udpDocumentFragment h5.expandableHeading,
+#udpDocumentFragment h6.expandableHeading {
+	font-family: forma-djr-ui, forma-djr-micro, 'Forma-DJR', 'FormaDJRUI', 'Forma DJR UI', 'FormaDJRDisplay', 'Forma DJR Display';
+    color: #000000; 
+    opacity: 1;
+    box-sizing: content-box;
+	/*font-weight: 500;*/
+}
+
+#udpDocumentFragment h2.expandableHeading { 
+    font-size: 1.25rem;
+    line-height: 1.25rem; 
+    background-size: 1.0em 1.0rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0rem;
+    padding-left: 2.2rem;
+	/*margin-top:0.625rem;*/
+	font-weight: 500;
+	/* PQC commented out next line 11/30*/
+	/*border-top: 1px solid #737373;*/
+	background-position-y: 0.5rem;
+}
+html[dir="rtl"] #udpDocumentFragment h2.expandableHeading {
+	padding-right: 2.2rem;
+	padding-left: 0rem;
+}
+  
+#udpDocumentFragment h3.expandableHeading { 
+    font-size: 1.0rem; 
+    line-height: 1.0rem; 
+    background-size: 1.00em 1.00rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0rem;
+    padding-left: 2.75rem;
+	font-weight: 500;
+	background-position-y: 0.4rem;
+}
+html[dir="rtl"] #udpDocumentFragment h3.expandableHeading {
+	padding-right: 2.0rem;
+	padding-left: 0rem;
+}
+  
+#udpDocumentFragment h4.expandableHeading { 
+    font-size: 1.0rem; 
+    line-height: 1.0rem; 
+    background-size: 1.00em 1.00rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0rem;
+    padding-left: 2.75rem;
+	font-weight: 500;
+	background-position-y: 0.4rem;
+}
+html[dir="rtl"] #udpDocumentFragment h4.expandableHeading {
+	padding-right: 2.75rem;
+	padding-left: 0rem;
+}
+  
+#udpDocumentFragment h5.expandableHeading { 
+    font-size: 1.0rem; 
+    line-height: 1.0rem; 
+    background-size: 1.00em 1.00rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0rem;
+    padding-left: 2.75rem;
+	font-weight: 500;
+	background-position-y: 0.4rem;
+}
+html[dir="rtl"] #udpDocumentFragment h5.expandableHeading {
+	padding-right: 2.75rem;
+	padding-left: 0rem;
+}
+
+#udpDocumentFragment h6.expandableHeading { 
+    font-size: 1.0rem; 
+    line-height: 1.0rem; 
+    background-size: 1.00em 1.00rem;
+    padding-top: 0.4rem;
+    padding-bottom: 0rem;
+    padding-left: 2.75rem;
+	font-weight: 500;
+	background-position-y: 0.4rem;
+}
+html[dir="rtl"] #udpDocumentFragment h6.expandableHeading {
+	padding-right: 2.75rem;
+	padding-left: 0rem;
+}
+
+#udpDocumentFragment div.expandable .expandableHeading {
+    cursor: pointer;
+    margin-bottom: 0 !important;
+    display: table;
+    width: 100%;
+    background-image: url('/wcc-assets/content/dam/hp-wcc/fe-assets/images/expand-plus_udp.svg');
+    background-repeat: no-repeat;
+    background-color: transparent;
+    box-sizing: border-box;
+	background-size: 20px 20px;
+	padding-bottom:5px;
+}
+
+html[dir="rtl"] #udpDocumentFragment div.expandable .expandableHeading {
+    background-position: right;
+}
+
+#udpDocumentFragment div.expandable .expandableHeading:hover {
+    background-image: url('/wcc-assets/content/dam/hp-wcc/fe-assets/images/expand-plus-hover_udp_updated.svg');
+}
+
+#udpDocumentFragment :not(.expandable) + .expandable .expandableHeading {
+    /*border-top: 1px solid #e8e8e8;*/
+}
+
+#udpDocumentFragment div.expandable .expandableHeading.toggled {
+    background-image: url('/wcc-assets/content/dam/hp-wcc/fe-assets/images/expand-plus-rotated_udp.svg');
+}
+
+#udpDocumentFragment div.collapse {
+    display: none;
+}
+
+#udpDocumentFragment div.in {
+    display: block;
+}
+
+/*
+ * SEQUENCE model
+ * Note: px used instead of em, this is fixed */
+ /* PQC deleted '#udpDocumentFragment div.sequence > div.topic:nth-of-type(2)' 11/30 */
+#udpDocumentFragment div.sequence > div.topic:nth-of-type(1),
+#udpDocumentFragment div.sequence > div.body:nth-of-type(1) {
+    counter-reset: seq-counter;
+}
+
+#udpDocumentFragment div.sequence > div.topic {
+    counter-increment: seq-counter;
+}
+
+#udpDocumentFragment div.sequence > div.topic::before {
+    content: counter(seq-counter);
+}
+
+
+
+
+ /* PQC deleted '#udpDocumentFragment div.sequence > div.topic:nth-of-type(2)' 11/30 */
+#udpDocumentFragment div.sequence > div.collapse > div.topic:nth-of-type(1),
+#udpDocumentFragment div.sequence > div.collapse > div.body:nth-of-type(1) {
+    counter-reset: seq-collapse-counter;
+}
+
+#udpDocumentFragment div.sequence > div.collapse > div.topic {
+    counter-increment: seq-collapse-counter;
+	margin-left: 0rem;
+}
+
+html[dir="rtl"] #udpDocumentFragment div.sequence > div.collapse > div.topic {
+	margin-right: 0rem;
+}
+
+#udpDocumentFragment div.sequence > div.collapse > div.topic::before {
+    content: counter(seq-collapse-counter);
+}
+
+#udpDocumentFragment div.sequence > div.topic,
+#udpDocumentFragment div.sequence > div.collapse > div.topic {
+    margin-top: 1.0rem;
+}
+
+#udpDocumentFragment div.sequence > div.topic::before,
+#udpDocumentFragment div.sequence > div.collapse > div.topic::before {
+    text-align: center;
+    background-color: #f4f4f4;
+    border-radius: 50%;
+    font-weight: 300;
+    position: absolute;
+}
+/* PQC changed margin-top from 0em to 0.5em 11/30 */
+#udpDocumentFragment div.sequence > div.nested1::before,
+#udpDocumentFragment div.sequence > div.collapse > div.nested1::before {
+    width: 2.25rem;
+    height: 2.25rem;	
+	line-height: 2.25rem;
+	font-size: 1.25rem;
+	margin-top: 0.5rem;
+}
+
+#udpDocumentFragment div.sequence > div.nested2::before,
+#udpDocumentFragment div.sequence > div.collapse > div.nested2::before {
+    width: 2.25rem;
+    height: 2.25rem;	
+	line-height: 2.25rem;
+	font-size: 1.0rem;
+	margin-top: 0.75rem;
+}
+
+#udpDocumentFragment div.sequence > div.nested3::before,
+#udpDocumentFragment div.sequence > div.collapse > div.nested3::before {
+    width: 2.0rem;
+    height: 2.0rem;	
+	line-height: 2.0rem;
+	font-size: 1.0rem;
+	margin-top: 0.75rem;
+}
+
+#udpDocumentFragment div.sequence > div.nested4::before,
+#udpDocumentFragment div.sequence > div.collapse > div.nested4::before {
+    width: 2.0rem;
+    height: 2.0rem;	
+	line-height: 2.0rem;
+	font-size: 1.0rem;
+	margin-top: 0.75rem;
+}
+
+#udpDocumentFragment div.sequence > div.nested5::before,
+#udpDocumentFragment div.sequence > div.collapse > div.nested5::before {
+    width: 2.0rem;
+    height: 2.0rem;	
+	line-height: 2.0rem;
+	font-size: 1.0rem;
+	margin-top: 0.75rem;
+}
+
+#udpDocumentFragment div.sequence > div.nested6::before,
+#udpDocumentFragment div.sequence > div.collapse > div.nested6::before {
+    width: 2.0rem;
+    height: 2.0rem;	
+	line-height: 2.0rem;
+	font-size: 1.0rem;
+	margin-top: 0.75rem;
+}
+
+
+#udpDocumentFragment div.sequence > div.topic > h2,
+#udpDocumentFragment div.sequence > div.topic > h3,
+#udpDocumentFragment div.sequence > div.topic > h4,
+#udpDocumentFragment div.sequence > div.topic > h5,
+#udpDocumentFragment div.sequence > div.topic > h6,
+#udpDocumentFragment div.sequence > div.collapse > div.topic > h2,
+#udpDocumentFragment div.sequence > div.collapse > div.topic > h3,
+#udpDocumentFragment div.sequence > div.collapse > div.topic > h4,
+#udpDocumentFragment div.sequence > div.collapse > div.topic > h5,
+#udpDocumentFragment div.sequence > div.collapse > div.topic > h6 {
+    line-height: 2.25rem;
+    margin-bottom: 0;
+    margin-left: 2.75em !important;
+}
+
+html[dir="rtl"] #udpDocumentFragment div.sequence > div.topic > h2,
+html[dir="rtl"] #udpDocumentFragment div.sequence > div.topic > h3,
+html[dir="rtl"] #udpDocumentFragment div.sequence > div.topic > h4,
+html[dir="rtl"] #udpDocumentFragment div.sequence > div.topic > h5,
+html[dir="rtl"] #udpDocumentFragment div.sequence > div.topic > h6,
+html[dir="rtl"] #udpDocumentFragment div.sequence > div.collapse > div.topic > h2,
+html[dir="rtl"] #udpDocumentFragment div.sequence > div.collapse > div.topic > h3,
+html[dir="rtl"] #udpDocumentFragment div.sequence > div.collapse > div.topic > h4,
+html[dir="rtl"] #udpDocumentFragment div.sequence > div.collapse > div.topic > h5,
+html[dir="rtl"] #udpDocumentFragment div.sequence > div.collapse > div.topic > h6 {
+    line-height: 2.25rem;
+    margin-bottom: 0;
+    margin-right: 2.75em !important;
+    margin-left: 0em !important;
+}
+
+
+
+/*Overriding margin-bottom for h3 and h4 */
+#udpDocumentFragment div.sequence > div.topic > h3,
+#udpDocumentFragment div.sequence > div.topic > h4,
+#udpDocumentFragment div.sequence > div.collapse > div.topic > h3,
+#udpDocumentFragment div.sequence > div.collapse > div.topic > h4 {
+    margin-bottom: 0 !important;
+}
+
+/* Fix for p elements right after the title,
+ * default margin-top was included and created
+ * incorrect spacing between title and body
+*/
+#udpDocumentFragment div.sequence > div.topic > h2+p.p,
+#udpDocumentFragment div.sequence > div.topic > h3+p.p,
+#udpDocumentFragment div.sequence > div.topic > h4+p.p,
+#udpDocumentFragment div.sequence > div.topic > h5+p.p,
+#udpDocumentFragment div.sequence > div.topic > h6+p.p,
+#udpDocumentFragment div.sequence > div.collapse > div.topic > h2+p.p,
+#udpDocumentFragment div.sequence > div.collapse > div.topic > h3+p.p,
+#udpDocumentFragment div.sequence > div.collapse > div.topic > h4+p.p,
+#udpDocumentFragment div.sequence > div.collapse > div.topic > h5+p.p,
+#udpDocumentFragment div.sequence > div.collapse > div.topic > h6+p.p {
+    margin-top: 0;
+}
+
+#udpDocumentFragment div.sequence > div.nested1 > *,
+#udpDocumentFragment div.sequence > div.collapse > div.nested1 > * {
+    margin-left: 3.5rem;
+}
+
+#udpDocumentFragment div.sequence > div.nested2 > *,
+#udpDocumentFragment div.sequence > div.collapse > div.nested2 > * {
+    margin-left: 2.75rem;
+}
+
+#udpDocumentFragment div.sequence > div.nested3 > *,
+#udpDocumentFragment div.sequence > div.collapse > div.nested3 > *,
+#udpDocumentFragment div.sequence > div.nested4 > *,
+#udpDocumentFragment div.sequence > div.collapse > div.nested4 > *,
+#udpDocumentFragment div.sequence > div.nested5 > *,
+#udpDocumentFragment div.sequence > div.collapse > div.nested5 > *,
+#udpDocumentFragment div.sequence > div.nested6 > *,
+#udpDocumentFragment div.sequence > div.collapse > div.nested6 > *{
+    margin-left: 3.0em !important;
+}
+
+html[dir="rtl"] #udpDocumentFragment div.sequence > div.nested1 > *,
+html[dir="rtl"] #udpDocumentFragment div.sequence > div.collapse > div.nested1 > * {
+    margin-right: 3.5rem;
+	margin-left: 0rem;
+}
+
+html[dir="rtl"] #udpDocumentFragment div.sequence > div.nested2 > *,
+html[dir="rtl"] #udpDocumentFragment div.sequence > div.collapse > div.nested2 > * {
+    margin-right: 2.75rem;
+	margin-left: 0rem;
+}
+
+html[dir="rtl"] #udpDocumentFragment div.sequence > div.nested3 > *,
+html[dir="rtl"] #udpDocumentFragment div.sequence > div.collapse > div.nested3 > *,
+html[dir="rtl"] #udpDocumentFragment div.sequence > div.nested4 > *,
+html[dir="rtl"] #udpDocumentFragment div.sequence > div.collapse > div.nested4 > *,
+html[dir="rtl"] #udpDocumentFragment div.sequence > div.nested5 > *,
+html[dir="rtl"] #udpDocumentFragment div.sequence > div.collapse > div.nested5 > *,
+html[dir="rtl"] #udpDocumentFragment div.sequence > div.nested6 > *,
+html[dir="rtl"] #udpDocumentFragment div.sequence > div.collapse > div.nested6 > *{
+    margin-right: 3.0em !important;
+	margin-left: 0rem;
+}
+
+html[dir="rtl"] #udpDocumentFragment div.sequence > div.topic > h2,
+html[dir="rtl"] #udpDocumentFragment div.sequence > div.topic > h3,
+html[dir="rtl"] #udpDocumentFragment div.sequence > div.topic > h4,
+html[dir="rtl"] #udpDocumentFragment div.sequence > div.topic > h5,
+html[dir="rtl"] #udpDocumentFragment div.sequence > div.topic > h6,
+html[dir="rtl"] #udpDocumentFragment div.sequence > div.collapse > div.topic > h2,
+html[dir="rtl"] #udpDocumentFragment div.sequence > div.collapse > div.topic > h3,
+html[dir="rtl"] #udpDocumentFragment div.sequence > div.collapse > div.topic > h4,
+html[dir="rtl"] #udpDocumentFragment div.sequence > div.collapse > div.topic > h5,
+html[dir="rtl"] #udpDocumentFragment div.sequence > div.collapse > div.topic > h6 {
+    line-height: 2.25rem;
+    margin-bottom: 0;
+    margin-right: 2.75em !important;
+}
+
+#udpDocumentFragment dd > p.p {
+    margin: .25em 0 1rem;
+}
+
+#udpDocumentFragment div.quicklinks > p.p {
+    margin: 0 0 1rem;
+}
+
+#udpDocumentFragment tr.row::before{
+    content: unset;
+}
+/* PQC Japanese specific styles commented out 11/30 */
+/* Japanese specific styles 
+html[lang='ja-jp'] #udpDocumentFragment * {
+    letter-spacing: 0.8px;
+}
+
+html[lang='ja-jp'] #udpDocumentFragment p {
+    font-weight: 400;
+}
+
+html[lang='ja-jp'] #udpDocumentFragment ol.ol li.li, 
+html[lang='ja-jp'] #udpDocumentFragment ul.ul li.li {
+    margin-bottom: 1rem;
+}
+ 
+html[lang='ja-jp'] #udpDocumentFragment span.notetitle, 
+html[lang='ja-jp'] #udpDocumentFragment span.tiptitle, 
+html[lang='ja-jp'] #udpDocumentFragment span.noticetitle,
+html[lang='ja-jp'] #udpDocumentFragment span.cautiontitle, 
+html[lang='ja-jp'] #udpDocumentFragment span.warningtitle, 
+html[lang='ja-jp'] #udpDocumentFragment span.dangertitle, 
+html[lang='ja-jp'] #udpDocumentFragment span.importanttitle {
+    font-weight: 500;
+}
+
+html[lang='ja-jp'] #udpDocumentFragment h1.topictitle1,
+html[lang='ja-jp'] #udpDocumentFragment h2.topictitle2 {
+    font-weight: 500;
+}
+
+html[lang='ja-jp'] #udpDocumentFragment h3.topictitle3,
+html[lang='ja-jp'] #udpDocumentFragment h4.topictitle4,
+html[lang='ja-jp'] #udpDocumentFragment h5.topictitle5,
+html[lang='ja-jp'] #udpDocumentFragment h6.topictitle6 {
+    font-weight: 500;
+}
+
+html[lang='ja-jp'] #udpDocumentFragment h3.topictitle3 {
+    margin-top: 1.500rem;
+}
+
+html[lang='ja-jp'] #udpDocumentFragment h4.topictitle4 {
+    margin-top: 1.667rem;
+}
+
+html[lang='ja-jp'] #udpDocumentFragment h5.topictitle5 {
+    margin-top: 1.875rem;
+}
+
+html[lang='ja-jp'] #udpDocumentFragment h6.topictitle6 {
+    margin-top: 2.143rem;
+}
+*/
+@media only screen and (max-width: 496px) {
+
+    #udpDocumentFragment{
+        overflow-x: auto;
+        font-size: 16px;
+    }
+
+    #udpDocumentFragment h1.topictitle1 {
+        font-size: 2rem;
+        line-height: 2rem;
+        font-weight: 400;
+        margin: 0 0 0 0;
+    }
+
+    #udpDocumentFragment h2.topictitle2,
+    #udpDocumentFragment div.sequence > div.topic > h2.topictitle2 {
+        font-size: 1.5rem;
+        line-height: 2.0rem;
+        margin: 0 0 0 0;
+    }
+
+	#udpDocumentFragment div.nested2,div.nested3,div.nested4,div.nested5,div.nested6 {
+		margin-left:1.75rem;
+	}
+
+    #udpDocumentFragment h3.topictitle3,
+    #udpDocumentFragment div.sequence > div.topic > h3.topictitle3 {
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+        margin: 0 0 0 0;
+        /*This overrides an important rule from mashup:ra*/
+        margin-bottom: 1em !important;
+    }
+
+    #udpDocumentFragment h4.topictitle4,
+    #udpDocumentFragment div.sequence > div.topic > h4.topictitle4,
+    #udpDocumentFragment .sectiontitle {
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+        margin: 0 0 0 0;
+        /*This overrides an important rule from mashup:ra*/
+        margin-bottom: 1.33em !important;
+    }
+
+    #udpDocumentFragment h5.topictitle5,
+    #udpDocumentFragment div.sequence > div.topic > h5.topictitle5 {
+        font-size: 1.0rem;
+        line-height: 1.5rem;
+        margin: 0 0 0 0;
+    }
+
+    #udpDocumentFragment h6.topictitle6,
+    #udpDocumentFragment div.sequence > div.topic > h6.topictitle6 {
+        font-size: 1.0rem;
+        line-height: 1.5rem;
+        text-transform: uppercase;
+        margin: 0 0 0 0;
+    }
+
+	#udpDocumentFragment div.sequence > div.nested1 > *,
+	#udpDocumentFragment div.sequence > div.collapse > div.nested1 > * {
+		margin-left: 3.0rem;
+	}
+	
+	html[dir="rtl"] #udpDocumentFragment div.sequence > div.nested1 > *,
+	html[dir="rtl"] #udpDocumentFragment div.sequence > div.collapse > div.nested1 > * {
+		margin-right: 3.0rem;
+		margin-left: 0rem;
+	}
+
+	#udpDocumentFragment div.sequence > div.nested2 > *,
+	#udpDocumentFragment div.sequence > div.collapse > div.nested2 > * {
+		margin-left: 2.5rem;
+	}
+	
+	html[dir="rtl"] #udpDocumentFragment div.sequence > div.nested2 > *,
+	html[dir="rtl"] #udpDocumentFragment div.sequence > div.collapse > div.nested2 > * {
+		margin-right: 2.5rem;
+		margin-left: 0rem;
+	}
+
+	#udpDocumentFragment div.sequence > div.nested3 > *,
+	#udpDocumentFragment div.sequence > div.collapse > div.nested3 > *,
+	#udpDocumentFragment div.sequence > div.nested4 > *,
+	#udpDocumentFragment div.sequence > div.collapse > div.nested4 > *,
+	#udpDocumentFragment div.sequence > div.nested5 > *,
+	#udpDocumentFragment div.sequence > div.collapse > div.nested5 > *,
+	#udpDocumentFragment div.sequence > div.nested6 > *,
+	#udpDocumentFragment div.sequence > div.collapse > div.nested6 > *{
+		margin-left: 2.0em !important;
+	}
+	
+	html[dir="rtl"] #udpDocumentFragment div.sequence > div.nested3 > *,
+	html[dir="rtl"] #udpDocumentFragment div.sequence > div.collapse > div.nested3 > *,
+	html[dir="rtl"] #udpDocumentFragment div.sequence > div.nested4 > *,
+	html[dir="rtl"] #udpDocumentFragment div.sequence > div.collapse > div.nested4 > *,
+	html[dir="rtl"] #udpDocumentFragment div.sequence > div.nested5 > *,
+	html[dir="rtl"] #udpDocumentFragment div.sequence > div.collapse > div.nested5 > *,
+	html[dir="rtl"] #udpDocumentFragment div.sequence > div.nested6 > *,
+	html[dir="rtl"] #udpDocumentFragment div.sequence > div.collapse > div.nested6 > *{
+		margin-right: 2.0em !important;
+		margin-left: 0em !important;
+	}
+
+    #udpDocumentFragment p.p, 
+    #udpDocumentFragment p.cmd, 
+    #udpDocumentFragment p.shortdesc {
+        font-size: 1rem;
+        line-height: 1.25rem;
+		margin-bottom: 0.25rem;
+    }
+
+    #udpDocumentFragment p.figcap,
+    #udpDocumentFragment span.tablecap, 
+    #udpDocumentFragment p.listtitle {
+        font-size: 1.067rem;
+        line-height: 1.063rem;
+    }
+
+    #udpDocumentFragment div.fig table.simpletable thead tr th, 
+    #udpDocumentFragment div.fig table.simpletable tbody tr td,
+    #udpDocumentFragment table thead tr th,
+    #udpDocumentFragment table tbody tr td {  
+        padding: 0.667rem;
+    }
+
+    /*Admonishments, gentext*/
+    #udpDocumentFragment span.notetitle, 
+    #udpDocumentFragment span.tiptitle, 
+    #udpDocumentFragment span.noticetitle,
+    #udpDocumentFragment span.cautiontitle, 
+    #udpDocumentFragment span.warningtitle, 
+    #udpDocumentFragment span.dangertitle, 
+    #udpDocumentFragment span.importanttitle {
+        line-height: 1.333rem;
+    }
+
+    #udpDocumentFragment table {
+        margin-right: 0;
+    }
+
+    #udpDocumentFragment table th p.p,
+    #udpDocumentFragment table th p {
+        font-size: 0.933rem;
+        line-height: 1.143rem;
+    }
+    
+    #udpDocumentFragment table td p.p,
+    #udpDocumentFragment table td p {
+        font-size: 0.933rem;
+        line-height: 1.357rem;
+        /*letter-spacing: 0.42px;*/
+    }
+
+    /* Expandable divs */
+	#udpDocumentFragment div.collapse{
+		margin-left: 1.4666rem;
+	}
+	html[dir="rtl"] #udpDocumentFragment div.collapse{
+		margin-right: 1.4666rem;
+		margin-left: 0rem;
+	}
+	
+	#udpDocumentFragment div.nested1 > div.expandable{
+		margin-left: 0em !important;
+	}
+	html[dir="rtl"] #udpDocumentFragment div.nested1 > div.expandable{
+		margin-right: 0em !important;
+		margin-left: 0em !important;
+	}
+	
+	#udpDocumentFragment div.expandable div.expandable {
+		margin-bottom: 0rem;
+	}
+	
+    #udpDocumentFragment h2.expandableHeading { 
+        font-size: 1.25rem;
+        line-height: 1.120rem; 
+		margin-left: 0.5rem;
+		padding-left: 1.4666rem;
+        /*letter-spacing: 0.5px; */
+        background-size: 1em 1rem;
+    }
+	html[dir="rtl"] #udpDocumentFragment h2.expandableHeading {
+		padding-right: 1.4666rem;
+		padding-left: 0rem;
+	}
+    
+    #udpDocumentFragment h3.expandableHeading { 
+        font-size: 1.0rem;
+        line-height: 1.167rem; 
+        /*letter-spacing: 0.36px; */
+        background-size: 1.0em 1.0rem;
+		/*padding-top: 0.2500rem;
+		padding-bottom: 0.2500rem;*/
+		padding-left: 1.4666rem;
+    }
+	html[dir="rtl"] #udpDocumentFragment h3.expandableHeading {
+		padding-right: 1.4666rem;
+		padding-left: 0rem;
+	}
+    
+    #udpDocumentFragment h4.expandableHeading { 
+        font-size: 1.0rem;
+        line-height: 1.188rem; 
+        /*letter-spacing: 0.32px; */
+        background-size: 1.0em 1.0rem;
+		padding-left: 1.4666rem;
+    }
+	html[dir="rtl"] #udpDocumentFragment h4.expandableHeading {
+		padding-right: 1.4666rem;
+		padding-left: 0rem;
+	}
+    
+    #udpDocumentFragment h5.expandableHeading { 
+        font-size: 1.0rem;
+        line-height: 1.214rem; 
+        /*letter-spacing: 0.25px; */
+        background-size: 1.0em 1.0;
+		padding-left: 1.4666rem;
+    }
+	html[dir="rtl"] #udpDocumentFragment h5.expandableHeading {
+		padding-right: 1.4666rem;
+		padding-left: 0rem;
+	}
+
+    #udpDocumentFragment h6.expandableHeading { 
+        font-size: 1.0rem;
+        line-height: 1.214rem; 
+        /*letter-spacing: 0.25px; */
+        background-size: 1.0em 1.0rem;
+		padding-left: 1.4666rem;
+    }
+	html[dir="rtl"] #udpDocumentFragment h6.expandableHeading {
+		padding-right: 1.4666rem;
+		padding-left: 0rem;
+	}
+
+    /* SEQUENCE in mobile, px used instead of em 
+     * because sizes are static in this case
+    */
+    #udpDocumentFragment div.sequence > div.topic::before{
+        /*width: 48px;
+        height: 48px;
+        font-size: 25px;
+        line-height: 48px;*/
+        font-weight: 300;
+        position: relative;
+        display: block;
+    }
+	
+	#udpDocumentFragment div.sequence > div.topic,
+	#udpDocumentFragment div.sequence > div.collapse > div.topic {
+		margin-top: 1.0rem;
+	}
+
+	#udpDocumentFragment div.sequence > div.topic::before,
+	#udpDocumentFragment div.sequence > div.collapse > div.topic::before {
+		text-align: center;
+		background-color: #f4f4f4;
+		border-radius: 50%;
+		font-weight: 400;
+		position: absolute;
+	}
+
+	#udpDocumentFragment div.sequence > div.nested1::before,
+	#udpDocumentFragment div.sequence > div.collapse > div.nested1::before {
+		width: 1.75rem;
+		height: 1.75rem;	
+		line-height: 1.75rem;
+		font-size: 2.0rem;
+	}
+
+	#udpDocumentFragment div.sequence > div.nested2::before,
+	#udpDocumentFragment div.sequence > div.collapse > div.nested2::before {
+		width: 1.466rem;
+		height: 1.466rem;	
+		line-height: 1.466rem;
+		font-size: 1.25rem;
+	}
+
+	#udpDocumentFragment div.sequence > div.nested3::before,
+	#udpDocumentFragment div.sequence > div.collapse > div.nested3::before {
+		width: 1.25rem;
+		height: 1.25rem;	
+		line-height: 1.25rem;
+		font-size: 0.8rem;
+	}
+
+	#udpDocumentFragment div.sequence > div.nested4::before,
+	#udpDocumentFragment div.sequence > div.collapse > div.nested4::before {
+		width: 1.25rem;
+		height: 1.25rem;	
+		line-height: 1.25rem;
+		font-size: 1.0rem;
+	}
+
+	#udpDocumentFragment div.sequence > div.nested5::before,
+	#udpDocumentFragment div.sequence > div.collapse > div.nested5::before {
+		width: 1.25rem;
+		height: 1.25rem;	
+		line-height: 1.25rem;
+		font-size: 1.0rem;
+	}
+
+	#udpDocumentFragment div.sequence > div.nested6::before,
+	#udpDocumentFragment div.sequence > div.collapse > div.nested6::before {
+		width: 1.25rem;
+		height: 1.25rem;	
+		line-height: 1.25rem;
+		font-size: 1.0rem;
+	}
+    
+    /*Reset margins to 0 for mobile version*/
+    #udpDocumentFragment div.sequence > div.topic > h2,
+    #udpDocumentFragment div.sequence > div.topic > h3,
+    #udpDocumentFragment div.sequence > div.topic > h4,
+    #udpDocumentFragment div.sequence > div.topic > h5,
+    #udpDocumentFragment div.sequence > div.topic > h6,
+	#udpDocumentFragment div.sequence > div.collapse > div.topic > h2,
+    #udpDocumentFragment div.sequence > div.collapse > div.topic > h3,
+    #udpDocumentFragment div.sequence > div.collapse > div.topic > h4,
+    #udpDocumentFragment div.sequence > div.collapse > div.topic > h5,
+    #udpDocumentFragment div.sequence > div.collapse > div.topic > h6{
+        display: block;
+		line-height: 1.5rem;
+		padding-top: 0.66rem;
+		margin-bottom: 0;
+		margin-left:2.0em !important;
+    }
+	html[dir="rtl"] #udpDocumentFragment div.sequence > div.topic > h2,
+    html[dir="rtl"] #udpDocumentFragment div.sequence > div.topic > h3,
+    html[dir="rtl"] #udpDocumentFragment div.sequence > div.topic > h4,
+    html[dir="rtl"] #udpDocumentFragment div.sequence > div.topic > h5,
+    html[dir="rtl"] #udpDocumentFragment div.sequence > div.topic > h6,
+	html[dir="rtl"] #udpDocumentFragment div.sequence > div.collapse > div.topic > h2,
+    html[dir="rtl"] #udpDocumentFragment div.sequence > div.collapse > div.topic > h3,
+    html[dir="rtl"] #udpDocumentFragment div.sequence > div.collapse > div.topic > h4,
+    html[dir="rtl"] #udpDocumentFragment div.sequence > div.collapse > div.topic > h5,
+    html[dir="rtl"] #udpDocumentFragment div.sequence > div.collapse > div.topic > h6{
+		margin-right:2.0em !important;
+		margin-left: 0em !important;
+	}
+
+    /*Reset margins to 0 for mobile version*/
+	#udpDocumentFragment div.sequence div.expandable{
+		margin-left: 3.0rem !important;
+	}
+	
+    #udpDocumentFragment div.sequence > div.topic > *
+    {
+        /*margin-left: 2.0rem;*/
+        margin-right: 0;
+    }
+    html[dir="rtl"] #udpDocumentFragment div.sequence > div.topic > *
+    {
+        margin-left: 0;
+        margin-right: 3.0rem !important;
+    }
+    /*Overriding WCC styles, setting default values*/
+    #udpDocumentFragment .step {
+        font-size: 1rem;
+        overflow: visible;
+        white-space: normal;
+        transition: 0s;
+    }
+
+    #udpDocumentFragment div.body {
+        padding: 0px;
+        border-top: 0px;
+    }
+
+    #udpDocumentFragment div.video {
+        padding: 0.667rem;
+    }
+
+    /*Video*/
+    #udpDocumentFragment div.videoHeading {
+        font-size: 0.8rem;
+    }
+    
+    #udpDocumentFragment div.videoName {
+        font-size: 1.067rem;
+    }
+    
+    #udpDocumentFragment div.videoDesc {
+        font-size: 1rem;
+    }
+
+}
+
+@media only screen and (min-width: 496px) and (max-width: 800px) {
+    /*Overriding WCC styles, setting default values*/
+    #udpDocumentFragment .step {
+        font-size: 1rem;
+        overflow: visible;
+        white-space: normal;
+    }
+
+    #udpDocumentFragment div.body {
+        padding: 0px;
+        border-top: 0px;
+    }
+}
+
+@media only screen and (min-width: 496px) {
+    #udpDocumentFragment div.currentstatus {
+        width: 50%;
+        float: left;
+    }
+
+    #udpDocumentFragment div.quicklinks {
+        width: 50%;
+        float: right;
+    }
+
+    html[dir="rtl"] #udpDocumentFragment div.currentstatus {
+        float: right;
+    }
+
+    html[dir="rtl"] #udpDocumentFragment div.quicklinks {
+        float: left;
+    }
+
+    #udpDocumentFragment div.quicklinks+* {
+        clear: both;
+    }
+}

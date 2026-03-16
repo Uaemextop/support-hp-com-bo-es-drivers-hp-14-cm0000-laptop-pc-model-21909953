@@ -1,0 +1,25 @@
+{
+  "url": "https://support.hp.com/wcc-assets/content/dam/hp-wcc/libs/styles/smart-content-document-styling.css",
+  "status_code": 200,
+  "headers": {
+    "Content-Type": "text/css",
+    "Content-Length": "6285",
+    "Server": "nginx",
+    "X-Dispatcher": "dispatcher5westus2",
+    "X-Vhost": "web-customer-care",
+    "X-Content-Type-Options": "nosniff, nosniff",
+    "Last-Modified": "Mon, 03 Nov 2025 10:45:59 GMT",
+    "ETag": "\"b541-642ae6bb487c0-gzip\"",
+    "Accept-Ranges": "bytes",
+    "Content-Encoding": "gzip",
+    "X-Frame-Options": "SAMEORIGIN, DENY, ALLOW-FROM https://hpcdax.crm.dynamics.com, *.hp.com",
+    "X-XSS-Protection": "1; mode=block",
+    "Strict-Transport-Security": "max-age=15768000; includeSubDomains; preload",
+    "Referrer-Policy": "no-referrer-when-downgrade",
+    "Vary": "Accept-Encoding",
+    "Expires": "Mon, 16 Mar 2026 13:36:35 GMT",
+    "Date": "Mon, 16 Mar 2026 13:36:35 GMT",
+    "Connection": "keep-alive",
+    "Akamai-GRN": "0.ce06d217.1773668195.5fcf6e33"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "url": "https://support.hp.com/wcc-assets/images/hp-logo-modal.gif",
+  "status_code": 200,
+  "headers": {
+    "X-Frame-Options": "ALLOW-FROM https://hpcdax.crm.dynamics.com, *.hp.com, ALLOW-FROM https://hpcdax.crm.dynamics.com, *.hp.com",
+    "ETag": "\"690e14dd-d3a\"",
+    "Last-Modified": "Tue, 30 Dec 2025 15:59:42 GMT",
+    "Server": "Akamai Image Manager",
+    "Content-Length": "1648",
+    "Content-Type": "image/avif",
+    "Cache-Control": "private, no-transform, max-age=43200",
+    "Expires": "Tue, 17 Mar 2026 01:36:36 GMT",
+    "Date": "Mon, 16 Mar 2026 13:36:36 GMT",
+    "Connection": "keep-alive",
+    "Akamai-GRN": "0.ce06d217.1773668196.5fcf7be4"
+  }
+}

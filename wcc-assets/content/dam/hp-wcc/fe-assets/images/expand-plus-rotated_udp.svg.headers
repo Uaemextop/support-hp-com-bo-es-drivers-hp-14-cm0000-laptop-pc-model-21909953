@@ -1,0 +1,25 @@
+{
+  "url": "https://support.hp.com/wcc-assets/content/dam/hp-wcc/fe-assets/images/expand-plus-rotated_udp.svg",
+  "status_code": 200,
+  "headers": {
+    "Content-Type": "image/svg+xml",
+    "Server": "nginx",
+    "X-Dispatcher": "dispatcher2westus2-28533384",
+    "X-Vhost": "web-customer-care",
+    "Content-Disposition": "attachment; filename=\"expand-plus-rotated_udp.svg\"",
+    "X-Content-Type-Options": "nosniff, nosniff",
+    "Last-Modified": "Thu, 04 Jul 2024 06:58:06 GMT",
+    "ETag": "W/\"3aa-61c6678037b80\"",
+    "X-Frame-Options": "SAMEORIGIN, DENY, ALLOW-FROM https://hpcdax.crm.dynamics.com, *.hp.com",
+    "X-XSS-Protection": "1; mode=block",
+    "Strict-Transport-Security": "max-age=15768000; includeSubDomains; preload",
+    "Referrer-Policy": "no-referrer-when-downgrade",
+    "Content-Encoding": "gzip",
+    "Content-Length": "451",
+    "Vary": "Accept-Encoding",
+    "Expires": "Mon, 16 Mar 2026 13:36:38 GMT",
+    "Date": "Mon, 16 Mar 2026 13:36:38 GMT",
+    "Connection": "keep-alive",
+    "Akamai-GRN": "0.ce06d217.1773668198.5fcf7e31"
+  }
+}

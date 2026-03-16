@@ -1,0 +1,17 @@
+{
+  "url": "https://support.hp.com/wcc-assets/content/dam/hp-wcc/fe-assets/images/wpd/waitingicon.gif",
+  "status_code": 200,
+  "headers": {
+    "X-Frame-Options": "ALLOW-FROM https://hpcdax.crm.dynamics.com, *.hp.com, ALLOW-FROM https://hpcdax.crm.dynamics.com, *.hp.com",
+    "ETag": "\"205ac-60942592ee140\"",
+    "Last-Modified": "Fri, 10 Oct 2025 14:54:06 GMT",
+    "Server": "Akamai Image Manager",
+    "Content-Length": "104762",
+    "Content-Type": "image/webp",
+    "Cache-Control": "private, no-transform, max-age=43200",
+    "Expires": "Tue, 17 Mar 2026 01:36:35 GMT",
+    "Date": "Mon, 16 Mar 2026 13:36:35 GMT",
+    "Connection": "keep-alive",
+    "Akamai-GRN": "0.ce06d217.1773668195.5fcf6e59"
+  }
+}

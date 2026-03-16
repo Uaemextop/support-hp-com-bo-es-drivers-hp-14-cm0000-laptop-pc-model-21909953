@@ -1,0 +1,23 @@
+{
+  "url": "https://support.hp.com/wcc-services/s/init?cc=",
+  "status_code": 200,
+  "headers": {
+    "Content-Type": "application/json",
+    "Server": "nginx",
+    "X-Custom-Header-StatusCode": "200",
+    "X-layer-2": "ig",
+    "Access-Control-Allow-Methods": "GET, POST, OPTIONS, DELETE, PUT",
+    "Access-Control-Allow-Headers": "User-Agent,Keep-Alive,Content-Type",
+    "x-seo": "false",
+    "x-ns": "east1-p-e",
+    "x-layer-1": "ws",
+    "Content-Encoding": "gzip",
+    "Content-Length": "547",
+    "Vary": "Accept-Encoding",
+    "Date": "Mon, 16 Mar 2026 13:34:31 GMT",
+    "Connection": "keep-alive",
+    "Set-Cookie": "wcc_s_flag=true; Expires=Mon, 16 Mar 2026 21:34:31 GMT; Max-Age=28800; Path=/; Secure, wcc_s_ref=1773668071868_0000019cf6daf9bc75e2116777ab897a_ckg8N2yPGw5n; Expires=Mon, 16 Mar 2026 21:34:31 GMT; Max-Age=28800; Path=/; Secure",
+    "X-Frame-Options": "ALLOW-FROM https://hpcdax.crm.dynamics.com, *.hp.com",
+    "Akamai-GRN": "0.ce06d217.1773668071.5fbe39db"
+  }
+}

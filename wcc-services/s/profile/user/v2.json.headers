@@ -1,0 +1,20 @@
+{
+  "url": "https://support.hp.com/wcc-services/s/profile/user/v2",
+  "status_code": 200,
+  "headers": {
+    "Content-Type": "application/json",
+    "Content-Length": "93",
+    "Server": "nginx",
+    "X-Custom-Header-StatusCode": "403",
+    "X-layer-2": "ig",
+    "Access-Control-Allow-Methods": "GET, POST, OPTIONS, DELETE, PUT",
+    "Access-Control-Allow-Headers": "User-Agent,Keep-Alive,Content-Type",
+    "x-seo": "false",
+    "x-ns": "east1-p-e",
+    "x-layer-1": "ws",
+    "Date": "Mon, 16 Mar 2026 13:36:35 GMT",
+    "Connection": "keep-alive",
+    "X-Frame-Options": "ALLOW-FROM https://hpcdax.crm.dynamics.com, *.hp.com",
+    "Akamai-GRN": "0.ce06d217.1773668195.5fcf6efe"
+  }
+}
